@@ -1,0 +1,162 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-02-16T07:43:29.833Z",
+    "end": "2021-02-16T07:44:05.093Z",
+    "duration": 35260,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f176cfae-c452-4963-bc0b-28c20d7776a4",
+      "title": "",
+      "fullFile": "cypress/integration/demo.spec.ts",
+      "file": "cypress/integration/demo.spec.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "14a6de12-a375-420d-a884-16b880e78529",
+          "title": "Demo tests on Cypress Websites",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Opens the Cypress home page",
+              "fullTitle": "Demo tests on Cypress Websites Opens the Cypress home page",
+              "timedOut": null,
+              "duration": 4694,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.verifyHomePage();",
+              "err": {},
+              "uuid": "5764ada5-88f1-4761-ad28-83b059d64216",
+              "parentUUID": "14a6de12-a375-420d-a884-16b880e78529",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login into to cypress using invalid user name",
+              "fullTitle": "Demo tests on Cypress Websites Login into to cypress using invalid user name",
+              "timedOut": null,
+              "duration": 9881,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.loginWithInvalidUser();",
+              "err": {},
+              "uuid": "6e9764d7-c22f-4e6e-85b3-200764f005c6",
+              "parentUUID": "14a6de12-a375-420d-a884-16b880e78529",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login into to cypress using valid user name and password",
+              "fullTitle": "Demo tests on Cypress Websites Login into to cypress using valid user name and password",
+              "timedOut": null,
+              "duration": 12460,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.loginWithValidUser();",
+              "err": {},
+              "uuid": "7c3b5ef8-2693-408a-8a7c-085f2a476532",
+              "parentUUID": "14a6de12-a375-420d-a884-16b880e78529",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "login with cy.request method",
+              "fullTitle": "Demo tests on Cypress Websites login with cy.request method",
+              "timedOut": null,
+              "duration": 5091,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": ";\nloginPage.loginWithCypressRequest();",
+              "err": {},
+              "uuid": "95d845c2-10ed-4caf-aa12-afc4ddb31381",
+              "parentUUID": "14a6de12-a375-420d-a884-16b880e78529",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5764ada5-88f1-4761-ad28-83b059d64216",
+            "6e9764d7-c22f-4e6e-85b3-200764f005c6",
+            "7c3b5ef8-2693-408a-8a7c-085f2a476532",
+            "95d845c2-10ed-4caf-aa12-afc4ddb31381"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 32126,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}
